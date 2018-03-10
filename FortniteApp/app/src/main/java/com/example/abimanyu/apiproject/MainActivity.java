@@ -1,7 +1,3 @@
-//GET https://api.fortnitetracker.com/v1/profile/{platform}/{epic-nickname}
-//Platforms: pc, xbl, psn
-//TRN-Api-Key: 9b5e6cb9-4e9b-42e3-8df6-4119d6070d2c
-
         package com.example.abimanyu.apiproject;
 
         import android.app.Activity;
