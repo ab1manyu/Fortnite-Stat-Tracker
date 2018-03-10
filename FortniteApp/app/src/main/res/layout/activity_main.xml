@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
+    tools:context="com.example.abimanyu.apiproject.MainActivity">
+
+    <EditText
+        android:id="@+id/id_editTextUSERNAME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="#ffffff"
+        android:gravity="center_horizontal"
+        android:inputType="textPersonName"
+        android:text="Fortnite UserName"
+        android:layout_marginTop="68dp"
+        android:layout_alignTop="@+id/radioGroup"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/id_buttonLaunch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="47dp"
+        android:text="Check your stats"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:textColor="#ffffff"
+        android:id="@+id/radioGroup"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="PlayStation 4      "
+            android:textColor="#ffffff" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="PC      "
+            android:textColor="#ffffff" />
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:text="Xbox One " />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/kill_death"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="Choose your platform!"
+        android:layout_marginBottom="19dp"
+        android:layout_above="@+id/radioGroup"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
